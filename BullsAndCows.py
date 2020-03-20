@@ -54,7 +54,7 @@ def normalizeInput(num, n):
 
     # Loop for all the missing digits.
     for i in range(0, n - len(num)):
-        prefix += '0'
+        prefix += ' '
 
     # Return the normalized user input.
     return prefix + num
